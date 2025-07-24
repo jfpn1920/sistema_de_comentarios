@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sistena de comentarios</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <!-------------------------------------->
+    <!--|estructura_sistema_de_comentario|-->
+    <!-------------------------------------->
+    <main class="contenedor-comentarios">
+        <h1>Deja tu comentario</h1>
+        <!------------------------------>
+        <!--|formulario_de_comentario|-->
+        <!------------------------------>
+        <form id="form-comentario">
+            <input type="text" id="nombre" placeholder="Tu nombre" required>
+            <textarea id="mensaje" placeholder="Escribe tu comentario..." required></textarea>
+            <button type="submit">Enviar comentario</button>
+        </form>
+        <hr>
+        <!----------------------------->
+        <!--|mostrar los comentarios|-->
+        <!----------------------------->
+        <section id="comentarios">
+            <h2>Comentarios</h2>
+            <div id="lista-comentarios">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
